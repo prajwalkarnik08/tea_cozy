@@ -1,0 +1,100 @@
+body{
+    padding: 0;
+    margin: 0px;
+    opacity: 0.9;
+    text-align: center;
+    background-color: black;
+    font-family: 'Helvetica' sans-serif;
+    font-size: 22px;   
+    color: seashell;
+}
+header{
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+}
+.head-cont img{
+    height: 50px;
+    padding-left: 10px;
+}
+.head-cont{
+    display: flex;
+    background-color: black;
+    align-items: center;
+}
+nav{
+    text-align: right;
+    flex-grow: 1;
+}
+a{
+    color: seashell;
+}
+nav span{
+    padding: 10px 20px;
+    text-decoration: underline;
+}
+
+.mission-cont{
+    background-image: url(resources/images/img-mission-background.jpg);
+    height: 700px;
+    padding-top: 70px;
+    display: flex;
+    margin: 0px 80px;
+}
+.mission-cont .mc-info{
+    background-color: black;
+    width: 100%;
+    margin:auto
+}
+.teas-cont{
+    width: 1000px;
+    height: 700px;
+    padding-top: 70px;
+    margin: auto;
+}
+.tea img{
+    height: 200px;
+    width: 300px;
+    padding: 0px 15px;
+}
+.teas-var{
+    display: inline-flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    justify-content: center;
+    align-items: center;
+}
+.teas-var h2{
+    color: seashell;
+    font-size: 23px;
+    padding-top: 10px;
+    margin: 0px 0px 20px 0px;
+}
+.location-cont{
+    height: 500px;
+    background-image: url(resources/images/img-locations-background.jpg);
+    margin: 0px 80px;
+}
+.locations{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+.location-cont h2{
+    padding: 70px 0px 0px 0px;
+}
+#downtown, #oak, #bay{
+    background-color: black;
+    margin: 0px 20px;
+    width: 300px;
+    height: auto;
+    opacity: 1;
+    margin-top: 15px;
+}
+.contact{
+    height: 200px;
+}
+footer{
+    text-align: left;
+    margin-left: 20px;
+}
